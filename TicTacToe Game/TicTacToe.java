@@ -80,6 +80,7 @@ public static boolean checkWin(char board[][], int r, int c, char player){
 		}
 		else{
 			win = false;
+			System.out.Prinln("false");
 			break;	
 		}
 	}	
